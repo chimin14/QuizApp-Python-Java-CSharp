@@ -207,6 +207,10 @@ Final Score: 60%
    - Purpose: Loads a previously saved quiz session so users can resume from where they left off.
    - How It Works: Reads saved progress from a file and restores quiz state.
    - Output: Restores saved quiz progress, including score and current question.
+## 9. ReviewAnswers
+   - Purpose: Allows users to review their answers at the end of the quiz, showing which questions were answered correctly or incorrectly.
+   - How it works: After completing the quiz, display each question with the user's answers, the correct answer.
+   - Output: A detailed review screen summarizing performance.
 
  ## Future Enhancements
 - Timed Mode: Introduce a timed mode to add a level of challenge.
