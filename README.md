@@ -107,46 +107,110 @@ The `questions.json` file should follow this structure to define quiz questions:
 ]
  ```
 
+## User Interaction
+Starting the Quiz
+Upon launching the quiz application, the user is prompted to select a category and difficulty level. 
 
-Function Details
+### Example:
+ ```
+Welcome to the Interactive Knowledge Quiz!
+Please choose a category:
+1. Science
+2. Technology
+3. History
+ ```
 
- 1. LoadQuestionsFromFile
+## Answering Questions
+Each question is presented with multiple answer choices, or as a true/false or fill-in-the-blank format.
+The user inputs their answer by selecting the corresponding option number or typing their answer directly.
+
+### Example (Multiple Choice):
+```
+What is the boiling point of water?
+1. 90°C
+2. 100°C
+3. 110°C
+4. 120°C
+Enter your answer (1-4):
+```
+### Example (True or False)
+
+```True or False: The internet was originally called ARPANET.
+Enter your answer (True/False):
+```
+
+## Feedback and Scoring
+
+After each answer, the application provides immediate feedback on whether the answer was correct.
+### Example:
+```
+Correct! The boiling point of water is 100°C.
+```
+
+## Saving and Resuming Progress
+Users can save their progress mid-quiz and resume it later.
+
+### Example:
+```
+Would you like to save your progress? (yes/no):
+```
+# Ending the Quiz and Report
+
+At the end of the quiz, a summary report is generated, displaying the number of correct and incorrect answers.
+Example:
+
+```
+Quiz Completed!
+Correct Answers: 3
+Incorrect Answers: 2
+Final Score: 60%
+```
+
+# Function Details
+
+## 1. LoadQuestionsFromFile
    - Purpose: Reads quiz questions from the JSON file and returns a list of questions.
    - How It Works: Opens `questions.json`, parses content, and validates each question format.
    - Output: Returns a list of question objects for the quiz.
 
- 2. ValidateQuestions
+ ## 2. ValidateQuestions
    - Purpose: Ensures that all questions loaded from the JSON file follow the correct format.
    - How It Works: Checks each question for required fields such as `category`, `difficulty`, `question`, `type`, and `answer`.
    - Output: Returns `true` if valid or throws an error if the format is incorrect.
 
- 3. AskQuestions
+## 3. AskQuestions
    - Purpose: Handles the quiz flow, presenting each question and collecting answers.
    - How It Works: Randomly shuffles questions, displays each question with choices, and validates answers. Provides immediate feedback on correctness.
    - Output: Tracks the number of correct and incorrect answers.
 
- 4. TrackScore
+## 4. TrackScore
    - Purpose: Keeps track of user scores by counting correct and incorrect responses.
    - How It Works: Compares user responses to correct answers and updates score counters.
    - Output: Updates score data during the quiz.
 
- 5. GenerateReport
+## 5. GenerateReport
    - Purpose: Provides a summary of the user’s performance at the end of the quiz.
    - How It Works: After all questions are answered, calculates the total score and displays a report of correct and incorrect answers.
    - Output: Prints a final performance report to the console.
 
- 6. DisplayCountdown
+## 6. DisplayCountdown
    - Purpose: Adds a countdown timer for each question to create a timed quiz challenge.
    - How It Works: Starts a timer for each question and submits the answer automatically if time runs out.
    - Output: Displays a countdown for each question.
 
- 7. SaveProgress
+## 7. SaveProgress
    - Purpose: Allows users to save their quiz progress.
    - How It Works: Writes current progress (current question, score, etc.) to a file, allowing users to resume later.
    - Output: A saved file in JSON format for future continuation.
 
-8. LoadProgress
+## 8. LoadProgress
    - Purpose: Loads a previously saved quiz session so users can resume from where they left off.
    - How It Works: Reads saved progress from a file and restores quiz state.
    - Output: Restores saved quiz progress, including score and current question.
+
+ ## Future Enhancements
+- Timed Mode: Introduce a timed mode to add a level of challenge.
+- Additional Question Types: Expand to new question types, such as matching or ordering.
+- Question Difficulty Adjustment: Develop a feature where the difficulty level adjusts based on the user’s performance. For instance, if a user answers several questions correctly in a row, the difficulty level increases.
+
 
