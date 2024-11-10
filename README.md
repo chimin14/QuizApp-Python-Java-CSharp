@@ -28,6 +28,7 @@ The Multi-Language Interactive Knowledge Quiz is a console-based application tha
 - .NET Core SDK (for C#)
 
 ## Project Structure
+```
 
 Multi-Language_Interactive_Knowledge_Quiz
 │
@@ -40,10 +41,8 @@ Multi-Language_Interactive_Knowledge_Quiz
 ├── C#/
 │   ├── KnowledgeQuiz.cs
 │
-├── VB.NET/
-│   ├── KnowledgeQuiz.vb
-│
 └── questions.json
+```
 
 ## How to Download and Install
 
