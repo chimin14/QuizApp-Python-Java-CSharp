@@ -1,0 +1,972 @@
+{
+  "users": {
+    "chimin": {
+      "history": [
+        {
+          "date": "2024-12-12T09:49:49.223Z",
+          "score": 0
+        },
+        {
+          "date": "2024-12-12T09:49:57.439Z",
+          "score": 0
+        },
+        {
+          "date": "2024-12-12T10:03:55.476Z",
+          "score": 0
+        },
+        {
+          "date": "2024-12-12T10:39:11.739Z",
+          "difficulty": "beginner",
+          "score": 15
+        },
+        {
+          "date": "2024-12-12T10:41:05.377Z",
+          "difficulty": "beginner",
+          "score": 1
+        },
+        {
+          "date": "2024-12-12T10:43:58.430Z",
+          "difficulty": "beginner",
+          "score": 1
+        },
+        {
+          "date": "2024-12-12T10:46:36.661Z",
+          "difficulty": "beginner",
+          "score": 0
+        },
+        {
+          "date": "2024-12-12T11:08:54.191Z",
+          "difficulty": "beginner",
+          "score": 2
+        },
+        {
+          "date": "2024-12-15T22:25:52.549Z",
+          "difficulty": "beginner",
+          "score": 0
+        },
+        {
+          "date": "2024-12-16T00:05:21.186Z",
+          "difficulty": "beginner",
+          "score": 3
+        },
+        {
+          "date": "2024-12-16T00:19:30.030Z",
+          "difficulty": "beginner",
+          "score": 2
+        }
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": 1,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "What is the chemical symbol for water?",
+      "choices": [
+        "H2O",
+        "O2",
+        "H2",
+        "HO"
+      ],
+      "answer": "A || H2O || h2o || H2o"
+    },
+    {
+      "id": 2,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "What planet is known as the Red Planet?",
+      "choices": [
+        "Mars",
+        "Jupiter",
+        "Earth",
+        "Venus"
+      ],
+      "answer": "A || Mars || mars || MARS"
+    },
+    {
+      "id": 3,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "What gas do plants absorb from the atmosphere?",
+      "choices": [
+        "Carbon Dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen"
+      ],
+      "answer": "A || Carbon Dioxide || carbon dioxide || CARBON DIOXIDE"
+    },
+    {
+      "id": 4,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "How many legs does a spider have?",
+      "choices": [
+        "6",
+        "8",
+        "10",
+        "4"
+      ],
+      "answer": "B || 8 || eight || EIGHT"
+    },
+    {
+      "id": 5,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "What is the hardest natural substance on Earth?",
+      "choices": [
+        "Diamond",
+        "Gold",
+        "Quartz",
+        "Iron"
+      ],
+      "answer": "A || Diamond || diamond || DIAMOND"
+    },
+    {
+      "id": 6,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "What is the powerhouse of the cell?",
+      "choices": [
+        "Mitochondria",
+        "Nucleus",
+        "Ribosome",
+        "Golgi apparatus"
+      ],
+      "answer": "A || Mitochondria || mitochondria || MITOCHONDRIA"
+    },
+    {
+      "id": 7,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "Which gas is essential for humans to breathe?",
+      "choices": [
+        "Oxygen",
+        "Nitrogen",
+        "Hydrogen",
+        "Carbon Dioxide"
+      ],
+      "answer": "A || Oxygen || oxygen || OXYGEN"
+    },
+    {
+      "id": 8,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What element has the highest melting point?",
+      "choices": [
+        "Tungsten",
+        "Iron",
+        "Carbon",
+        "Platinum"
+      ],
+      "answer": "A || Tungsten || tungsten || TUNGSTEN"
+    },
+    {
+      "id": 9,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What is the speed of light?",
+      "choices": [
+        "3 x 10^8 m/s",
+        "1 x 10^6 m/s",
+        "9.8 m/s",
+        "6 x 10^5 m/s"
+      ],
+      "answer": "A || 3 x 10^8 m/s || 3 x 10^8 || speed of light"
+    },
+    {
+      "id": 10,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What is the approximate value of the gravitational constant?",
+      "choices": [
+        "6.67 x 10^-11",
+        "9.8",
+        "3 x 10^8",
+        "1.6 x 10^-19"
+      ],
+      "answer": "A || 6.67 x 10^-11 || gravitational constant"
+    },
+    {
+      "id": 11,
+      "category": "Geography",
+      "difficulty": "beginner",
+      "question": "What is the largest ocean on Earth?",
+      "choices": [
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "answer": "A || Pacific Ocean || pacific ocean || PACIFIC OCEAN"
+    },
+    {
+      "id": 12,
+      "category": "Geography",
+      "difficulty": "beginner",
+      "question": "What is the capital of Japan?",
+      "choices": [
+        "Beijing",
+        "Seoul",
+        "Tokyo",
+        "Bangkok"
+      ],
+      "answer": "C || Tokyo || tokyo || TOKYO"
+    },
+    {
+      "id": 13,
+      "category": "Geography",
+      "difficulty": "hard",
+      "question": "Which desert is the largest in the world?",
+      "choices": [
+        "Sahara",
+        "Gobi",
+        "Kalahari",
+        "Antarctic Desert"
+      ],
+      "answer": "D || Antarctic Desert || antarctic desert || ANTARCTIC DESERT"
+    },
+    {
+      "id": 14,
+      "category": "Geography",
+      "difficulty": "hard",
+      "question": "What is the longest river in the world?",
+      "choices": [
+        "Amazon River",
+        "Nile River",
+        "Yangtze River",
+        "Mississippi River"
+      ],
+      "answer": "B || Nile River || nile river || NILE RIVER"
+    },
+    {
+      "id": 15,
+      "category": "General Knowledge",
+      "difficulty": "beginner",
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "choices": [
+        "Charles Dickens",
+        "William Shakespeare",
+        "Mark Twain",
+        "Jane Austen"
+      ],
+      "answer": "B || William Shakespeare || shakespeare || WILLIAM SHAKESPEARE"
+    },
+    {
+      "id": 16,
+      "category": "General Knowledge",
+      "difficulty": "beginner",
+      "question": "What is the largest mammal?",
+      "choices": [
+        "Elephant",
+        "Blue Whale",
+        "Giraffe",
+        "Hippopotamus"
+      ],
+      "answer": "B || Blue Whale || blue whale || BLUE WHALE"
+    },
+    {
+      "id": 17,
+      "category": "General Knowledge",
+      "difficulty": "hard",
+      "question": "What year did the Titanic sink?",
+      "choices": [
+        "1905",
+        "1912",
+        "1920",
+        "1935"
+      ],
+      "answer": "B || 1912 || titanic 1912"
+    },
+    {
+      "id": 18,
+      "category": "History",
+      "difficulty": "beginner",
+      "question": "Who was the first President of the United States?",
+      "choices": [
+        "George Washington",
+        "Thomas Jefferson",
+        "John Adams",
+        "Abraham Lincoln"
+      ],
+      "answer": "A || George Washington || washington || GEORGE WASHINGTON"
+    },
+    {
+      "id": 19,
+      "category": "Mathematics",
+      "difficulty": "beginner",
+      "question": "What is 2 + 2?",
+      "choices": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": "B || 4 || four || FOUR"
+    },
+    {
+      "id": 20,
+      "category": "Materials",
+      "difficulty": "beginner",
+      "question": "Which material is primarily used to make glass?",
+      "choices": [
+        "Sand",
+        "Plastic",
+        "Wood",
+        "Metal"
+      ],
+      "answer": "A || Sand || sand || SAND"
+    },
+    {
+      "id": 21,
+      "category": "History",
+      "difficulty": "beginner",
+      "question": "In which year did World War II end?",
+      "choices": [
+        "1945",
+        "1939",
+        "1918",
+        "1960"
+      ],
+      "answer": "A || 1945 || nineteen forty-five || 1945"
+    },
+    {
+      "id": 22,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "What is the boiling point of water at sea level?",
+      "choices": [
+        "100°C",
+        "90°C",
+        "110°C",
+        "50°C"
+      ],
+      "answer": "A || 100°C || 100 degrees Celsius || one hundred degrees"
+    },
+    {
+      "id": 23,
+      "category": "Geography",
+      "difficulty": "beginner",
+      "question": "Which country is also known as the Land of the Rising Sun?",
+      "choices": [
+        "Japan",
+        "China",
+        "Thailand",
+        "Vietnam"
+      ],
+      "answer": "A || Japan || japan || JAPAN"
+    },
+    {
+      "id": 24,
+      "category": "Mathematics",
+      "difficulty": "beginner",
+      "question": "What is 9 x 9?",
+      "choices": [
+        "81",
+        "72",
+        "90",
+        "99"
+      ],
+      "answer": "A || 81 || eighty-one || 81"
+    },
+    {
+      "id": 25,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What is the main component of the Sun?",
+      "choices": [
+        "Hydrogen",
+        "Oxygen",
+        "Helium",
+        "Carbon"
+      ],
+      "answer": "A || Hydrogen || hydrogen || HYDROGEN"
+    },
+    {
+      "id": 26,
+      "category": "General Knowledge",
+      "difficulty": "beginner",
+      "question": "What is the capital city of Australia?",
+      "choices": [
+        "Sydney",
+        "Melbourne",
+        "Canberra",
+        "Brisbane"
+      ],
+      "answer": "C || Canberra || canberra || CANBERRA"
+    },
+    {
+      "id": 27,
+      "category": "History",
+      "difficulty": "hard",
+      "question": "Who was the first emperor of Rome?",
+      "choices": [
+        "Julius Caesar",
+        "Augustus",
+        "Nero",
+        "Caligula"
+      ],
+      "answer": "B || Augustus || augustus || AUGUSTUS"
+    },
+    {
+      "id": 28,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What is the chemical symbol for gold?",
+      "choices": [
+        "Au",
+        "Ag",
+        "Pb",
+        "Fe"
+      ],
+      "answer": "A || Au || au || gold || GOLD"
+    },
+    {
+      "id": 29,
+      "category": "Mathematics",
+      "difficulty": "hard",
+      "question": "What is the value of Pi to 3 decimal places?",
+      "choices": [
+        "3.142",
+        "3.141",
+        "3.143",
+        "3.145"
+      ],
+      "answer": "A || 3.142 || 3.142 || PI || pi"
+    },
+    {
+      "id": 30,
+      "category": "General Knowledge",
+      "difficulty": "beginner",
+      "question": "What is the smallest planet in our solar system?",
+      "choices": [
+        "Mercury",
+        "Mars",
+        "Earth",
+        "Venus"
+      ],
+      "answer": "A || Mercury || mercury || MERCURY"
+    },
+    {
+      "id": 31,
+      "category": "Geography",
+      "difficulty": "beginner",
+      "question": "Which country has the most time zones?",
+      "choices": [
+        "Russia",
+        "USA",
+        "France",
+        "China"
+      ],
+      "answer": "C || France || france || FRANCE"
+    },
+    {
+      "id": 32,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "Which part of the human body controls balance?",
+      "choices": [
+        "Ear",
+        "Brain",
+        "Heart",
+        "Liver"
+      ],
+      "answer": "A || Ear || ear || EAR"
+    },
+    {
+      "id": 33,
+      "category": "History",
+      "difficulty": "beginner",
+      "question": "Who discovered America?",
+      "choices": [
+        "Christopher Columbus",
+        "Vasco da Gama",
+        "Ferdinand Magellan",
+        "Amerigo Vespucci"
+      ],
+      "answer": "A || Christopher Columbus || columbus || CHRISTOPHER COLUMBUS"
+    },
+    {
+      "id": 34,
+      "category": "Mathematics",
+      "difficulty": "beginner",
+      "question": "What is the square root of 64?",
+      "choices": [
+        "6",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": "B || 8 || eight || EIGHT"
+    },
+    {
+      "id": 35,
+      "category": "General Knowledge",
+      "difficulty": "hard",
+      "question": "Which is the largest internal organ in the human body?",
+      "choices": [
+        "Liver",
+        "Brain",
+        "Lungs",
+        "Heart"
+      ],
+      "answer": "A || Liver || liver || LIVER"
+    },
+    {
+      "id": 36,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What is the second most abundant gas in Earth's atmosphere?",
+      "choices": [
+        "Oxygen",
+        "Nitrogen",
+        "Argon",
+        "Carbon Dioxide"
+      ],
+      "answer": "A || Oxygen || oxygen || OXYGEN"
+    },
+    {
+      "id": 37,
+      "category": "Geography",
+      "difficulty": "hard",
+      "question": "What is the capital city of Canada?",
+      "choices": [
+        "Toronto",
+        "Ottawa",
+        "Vancouver",
+        "Montreal"
+      ],
+      "answer": "B || Ottawa || ottawa || OTTAWA"
+    },
+    {
+      "id": 38,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What is the chemical formula for table salt?",
+      "choices": [
+        "NaCl",
+        "KCl",
+        "CaCl2",
+        "HCl"
+      ],
+      "answer": "A || NaCl || salt || SALT"
+    },
+    {
+      "id": 39,
+      "category": "History",
+      "difficulty": "beginner",
+      "question": "Who was the British Prime Minister during World War II?",
+      "choices": [
+        "Winston Churchill",
+        "Neville Chamberlain",
+        "Clement Attlee",
+        "Stanley Baldwin"
+      ],
+      "answer": "A || Winston Churchill || churchill || WINSTON CHURCHILL"
+    },
+    {
+      "id": 40,
+      "category": "Materials",
+      "difficulty": "hard",
+      "question": "What is the main ingredient in steel?",
+      "choices": [
+        "Iron",
+        "Copper",
+        "Aluminum",
+        "Carbon"
+      ],
+      "answer": "A || Iron || iron || IRON"
+    },
+    {
+      "id": 41,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "What is the closest planet to the Sun?",
+      "choices": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars"
+      ],
+      "answer": "A || Mercury || mercury || MERCURY"
+    },
+    {
+      "id": 42,
+      "category": "Geography",
+      "difficulty": "beginner",
+      "question": "What is the capital city of Italy?",
+      "choices": [
+        "Rome",
+        "Milan",
+        "Venice",
+        "Naples"
+      ],
+      "answer": "A || Rome || rome || ROME"
+    },
+    {
+      "id": 43,
+      "category": "Mathematics",
+      "difficulty": "beginner",
+      "question": "What is 15 divided by 3?",
+      "choices": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "answer": "A || 5 || five || FIVE"
+    },
+    {
+      "id": 44,
+      "category": "History",
+      "difficulty": "beginner",
+      "question": "Who was the first man to step on the Moon?",
+      "choices": [
+        "Buzz Aldrin",
+        "Neil Armstrong",
+        "Yuri Gagarin",
+        "Michael Collins"
+      ],
+      "answer": "B || Neil Armstrong || neil armstrong || NEIL ARMSTRONG"
+    },
+    {
+      "id": 45,
+      "category": "General Knowledge",
+      "difficulty": "beginner",
+      "question": "What is the currency used in Japan?",
+      "choices": [
+        "Dollar",
+        "Yen",
+        "Euro",
+        "Won"
+      ],
+      "answer": "B || Yen || yen || YEN"
+    },
+    {
+      "id": 46,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What is the chemical formula for methane?",
+      "choices": [
+        "CH4",
+        "C2H6",
+        "CH3",
+        "C2H4"
+      ],
+      "answer": "A || CH4 || methane || METHANE"
+    },
+    {
+      "id": 47,
+      "category": "Geography",
+      "difficulty": "hard",
+      "question": "Which is the largest island in the world?",
+      "choices": [
+        "Greenland",
+        "Australia",
+        "Madagascar",
+        "Iceland"
+      ],
+      "answer": "A || Greenland || greenland || GREENLAND"
+    },
+    {
+      "id": 48,
+      "category": "Mathematics",
+      "difficulty": "hard",
+      "question": "What is the factorial of 5?",
+      "choices": [
+        "120",
+        "60",
+        "100",
+        "150"
+      ],
+      "answer": "A || 120 || one hundred twenty || 120"
+    },
+    {
+      "id": 49,
+      "category": "History",
+      "difficulty": "hard",
+      "question": "Who was the first President of the Soviet Union?",
+      "choices": [
+        "Mikhail Gorbachev",
+        "Vladimir Lenin",
+        "Joseph Stalin",
+        "Nikita Khrushchev"
+      ],
+      "answer": "A || Mikhail Gorbachev || gorbachev || MIKHAIL GORBACHEV"
+    },
+    {
+      "id": 50,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What is the process plants use to convert sunlight into food?",
+      "choices": [
+        "Photosynthesis",
+        "Respiration",
+        "Transpiration",
+        "Fermentation"
+      ],
+      "answer": "A || Photosynthesis || photosynthesis || PHOTOSYNTHESIS"
+    },
+    {
+      "id": 51,
+      "category": "Geography",
+      "difficulty": "beginner",
+      "question": "Which continent is the Sahara Desert located in?",
+      "choices": [
+        "Africa",
+        "Asia",
+        "Australia",
+        "Europe"
+      ],
+      "answer": "A || Africa || africa || AFRICA"
+    },
+    {
+      "id": 52,
+      "category": "General Knowledge",
+      "difficulty": "beginner",
+      "question": "What color is the outer circle on the Olympic flag?",
+      "choices": [
+        "Blue",
+        "Yellow",
+        "Black",
+        "Green"
+      ],
+      "answer": "A || Blue || blue || BLUE"
+    },
+    {
+      "id": 53,
+      "category": "History",
+      "difficulty": "beginner",
+      "question": "Who was the first female Prime Minister of the United Kingdom?",
+      "choices": [
+        "Margaret Thatcher",
+        "Angela Merkel",
+        "Theresa May",
+        "Jacinda Ardern"
+      ],
+      "answer": "A || Margaret Thatcher || thatcher || MARGARET THATCHER"
+    },
+    {
+      "id": 54,
+      "category": "Mathematics",
+      "difficulty": "hard",
+      "question": "What is the derivative of x^3?",
+      "choices": [
+        "3x^2",
+        "x^2",
+        "2x",
+        "3x^3"
+      ],
+      "answer": "A || 3x^2 || derivative || DERIVATIVE"
+    },
+    {
+      "id": 55,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What is the name of the galaxy we live in?",
+      "choices": [
+        "Milky Way",
+        "Andromeda",
+        "Whirlpool",
+        "Triangulum"
+      ],
+      "answer": "A || Milky Way || milky way || MILKY WAY"
+    },
+    {
+      "id": 56,
+      "category": "Geography",
+      "difficulty": "beginner",
+      "question": "Which river flows through London?",
+      "choices": [
+        "Thames",
+        "Seine",
+        "Danube",
+        "Rhine"
+      ],
+      "answer": "A || Thames || thames || THAMES"
+    },
+    {
+      "id": 57,
+      "category": "General Knowledge",
+      "difficulty": "beginner",
+      "question": "What is the tallest mountain in the world?",
+      "choices": [
+        "K2",
+        "Mount Everest",
+        "Kangchenjunga",
+        "Lhotse"
+      ],
+      "answer": "B || Mount Everest || everest || MOUNT EVEREST"
+    },
+    {
+      "id": 58,
+      "category": "Mathematics",
+      "difficulty": "hard",
+      "question": "What is the value of Euler's number (e) rounded to two decimal places?",
+      "choices": [
+        "2.72",
+        "3.14",
+        "1.41",
+        "2.68"
+      ],
+      "answer": "A || 2.72 || euler || EULER"
+    },
+    {
+      "id": 59,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What is the pH of pure water?",
+      "choices": [
+        "7",
+        "6",
+        "8",
+        "9"
+      ],
+      "answer": "A || 7 || seven || 7"
+    },
+    {
+      "id": 60,
+      "category": "Geography",
+      "difficulty": "hard",
+      "question": "What is the largest country in the world by area?",
+      "choices": [
+        "Russia",
+        "Canada",
+        "China",
+        "USA"
+      ],
+      "answer": "A || Russia || russia || RUSSIA"
+    },
+    {
+      "id": 61,
+      "category": "History",
+      "difficulty": "beginner",
+      "question": "Which war was fought between the North and South regions of the United States?",
+      "choices": [
+        "World War I",
+        "American Civil War",
+        "Vietnam War",
+        "Revolutionary War"
+      ],
+      "answer": "B || American Civil War || civil war || AMERICAN CIVIL WAR"
+    },
+    {
+      "id": 62,
+      "category": "General Knowledge",
+      "difficulty": "beginner",
+      "question": "What is the most spoken language in the world?",
+      "choices": [
+        "Mandarin Chinese",
+        "English",
+        "Hindi",
+        "Spanish"
+      ],
+      "answer": "A || Mandarin Chinese || mandarin || MANDARIN CHINESE"
+    },
+    {
+      "id": 63,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "Which part of the brain controls memory?",
+      "choices": [
+        "Cerebellum",
+        "Hippocampus",
+        "Cerebrum",
+        "Medulla"
+      ],
+      "answer": "B || Hippocampus || hippocampus || HIPPOCAMPUS"
+    },
+    {
+      "id": 64,
+      "category": "Geography",
+      "difficulty": "hard",
+      "question": "Which U.S. state has the most active volcanoes?",
+      "choices": [
+        "Hawaii",
+        "Alaska",
+        "California",
+        "Washington"
+      ],
+      "answer": "B || Alaska || alaska || ALASKA"
+    },
+    {
+      "id": 65,
+      "category": "General Knowledge",
+      "difficulty": "beginner",
+      "question": "What color are school buses in the United States?",
+      "choices": [
+        "Red",
+        "Yellow",
+        "Blue",
+        "Green"
+      ],
+      "answer": "B || Yellow || yellow || YELLOW"
+    },
+    {
+      "id": 66,
+      "category": "Mathematics",
+      "difficulty": "beginner",
+      "question": "What is the square of 12?",
+      "choices": [
+        "144",
+        "121",
+        "150",
+        "130"
+      ],
+      "answer": "A || 144 || one hundred forty-four || 144"
+    },
+    {
+      "id": 67,
+      "category": "History",
+      "difficulty": "beginner",
+      "question": "Who painted the Mona Lisa?",
+      "choices": [
+        "Leonardo da Vinci",
+        "Vincent van Gogh",
+        "Pablo Picasso",
+        "Michelangelo"
+      ],
+      "answer": "A || Leonardo da Vinci || da vinci || LEONARDO DA VINCI"
+    },
+    {
+      "id": 68,
+      "category": "Science",
+      "difficulty": "beginner",
+      "question": "What is the main gas found in the air we breathe?",
+      "choices": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon Dioxide",
+        "Argon"
+      ],
+      "answer": "B || Nitrogen || nitrogen || NITROGEN"
+    },
+    {
+      "id": 69,
+      "category": "Geography",
+      "difficulty": "hard",
+      "question": "What is the highest waterfall in the world?",
+      "choices": [
+        "Niagara Falls",
+        "Victoria Falls",
+        "Angel Falls",
+        "Iguazu Falls"
+      ],
+      "answer": "C || Angel Falls || angel falls || ANGEL FALLS"
+    },
+    {
+      "id": 70,
+      "category": "Science",
+      "difficulty": "hard",
+      "question": "What does DNA stand for?",
+      "choices": [
+        "Deoxyribonucleic Acid",
+        "Dinucleic Acid",
+        "Deoxyribose Acid",
+        "Dinucleoside Acid"
+      ],
+      "answer": "A || Deoxyribonucleic Acid || dna || DEOXYRIBONUCLEIC ACID"
+    }
+  ]
+}
