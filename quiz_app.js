@@ -14,12 +14,14 @@ let userData = quizData.users;
 let questions = quizData.questions;
 
 if (!questions.length) {
-    // Generate default questions
-    questions = Array.from({ length: 40 }, (_, i) => {
-        let difficulty = i < 20 ? (i % 2 === 0 ? 'beginner' : 'hard') : 'beginner';
+    // Generate default questions by reading levels from JSON file
+    questions = Array.from({ length: 100 }, (_, i) => { // Adjust length to 100 for all questions
+        const difficultyLevels = ['beginner', 'intermediate', 'hard'];
+        const difficulty = difficultyLevels[Math.floor(i / 33.33)]; // Evenly distribute difficulties
+
         return {
             id: i + 1,
-            category: ['Science', 'Technology', 'History', 'Math'][Math.floor(i / 10)],
+            category: ['Science', 'Technology', 'History', 'Math'][Math.floor(i / 25)], // Adjust category distribution
             difficulty,
             question: `Question ${i + 1} - Sample`,
             type: 'multiple-choice',
@@ -30,6 +32,7 @@ if (!questions.length) {
     quizData.questions = questions;
     fs.writeFileSync(quizDataFile, JSON.stringify(quizData, null, 2));
 }
+
 
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -89,16 +92,17 @@ function signUp() {
 }
 
 function selectDifficulty(username) {
-    rl.question('Choose difficulty: (1) Beginner or (2) Hard: ', (difficultyChoice) => {
-        if (difficultyChoice === '1' || difficultyChoice === '2') {
-            const selectedDifficulty = difficultyChoice === '1' ? 'beginner' : 'hard';
+    rl.question('Choose difficulty: (1) Beginner, (2) Intermediate, or (3) Hard: ', (difficultyChoice) => {
+        if (['1', '2', '3'].includes(difficultyChoice)) {
+            const selectedDifficulty = difficultyChoice === '1' ? 'beginner' : (difficultyChoice === '2' ? 'intermediate' : 'hard');
             startQuiz(username, selectedDifficulty);
         } else {
-            console.log('Invalid choice. Please choose 1 or 2.');
+            console.log('Invalid choice. Please choose 1, 2, or 3.');
             selectDifficulty(username);
         }
     });
 }
+
 
 function startQuiz(username, difficulty) {
     let score = 0;
@@ -112,45 +116,30 @@ function startQuiz(username, difficulty) {
     function askQuestion() {
         if (questionIndex < filteredQuestions.length) {
             const question = filteredQuestions[questionIndex];
-
+    
             console.log(`\nQuestion: ${question.question}`);
             console.log(`A. ${question.choices[0]}`);
             console.log(`B. ${question.choices[1]}`);
             console.log(`C. ${question.choices[2]}`);
             console.log(`D. ${question.choices[3]}`);
-
-            let timeRemaining = 15;
-            let timerActive = true;
+    
             let answerReceived = false;
-
-            // Separate timer display to prevent input interruption
-            const timerDisplay = setInterval(() => {
-                if (!answerReceived && timeRemaining > 0) {
-                    process.stderr.write(`\rTime remaining: ${timeRemaining}s `);
-                    timeRemaining--;
-                } else {
-                    clearInterval(timerDisplay);
-                }
-            }, 1000);
-
+    
             // Timeout to handle no answer scenario
             const timeout = setTimeout(() => {
                 if (!answerReceived) {
                     console.log('\nTime is up!');
                     console.log(`Correct answer: ${question.answer.split('||')[0].trim()}`);
-                    answerReceived = true;
                     questionIndex++;
                     askQuestion();
                 }
             }, 15000);
-
+    
             rl.question('\nYour answer: ', (answer) => {
                 if (!answerReceived) {
                     answerReceived = true;
                     clearTimeout(timeout);
-                    clearInterval(timerDisplay);
-                    process.stderr.write('\r'.padEnd(30, ' ') + '\r'); // Clear timer line
-
+    
                     const correctAnswers = question.answer.split('||').map(a => a.trim());
                     if (correctAnswers.includes(answer.trim()) || correctAnswers.includes(answer.toUpperCase())) {
                         console.log('Correct!');
@@ -170,7 +159,7 @@ function startQuiz(username, difficulty) {
             rl.close();
         }
     }
-
+    
     askQuestion();
 }
 
