@@ -2,12 +2,12 @@
 
 ## Project Overview
 
-The Multi-Language Interactive Knowledge Quiz is a console-based application that provides an engaging, customizable quiz experience for users across various knowledge areas. Developed in Python, JavaScript, and C#, this project demonstrates cross-language programming proficiency while offering an educational tool that helps users test their knowledge in selected categories and difficulty levels.
+The Multi-Language Interactive Knowledge Quiz is a console-based application that provides an engaging, customizable quiz experience for users across various knowledge areas. Developed in Python, and C#, this project demonstrates cross-language programming proficiency while offering an educational tool that helps users test their knowledge in selected categories and difficulty levels.
 
 ## Project Goals
 
 - Educational Tool: To create an interactive quiz that helps users learn and test their knowledge on various topics.
-- Cross-Language Practice: To showcase skills in Python, JavaScript, C#, making the quiz accessible across multiple platforms.
+- Cross-Language Practice: To showcase skills in Python, C#, making the quiz accessible across multiple platforms.
 - Feature-Rich Quiz Experience: To implement features such as category selection, difficulty customization, real-time feedback, and progress saving, creating a dynamic and user-friendly quiz.
 
 ## Key Features
@@ -18,13 +18,12 @@ The Multi-Language Interactive Knowledge Quiz is a console-based application tha
 4. Random Question Ordering: Shuffles questions at the start of each quiz for a unique experience every time.
 5. Real-Time Feedback: Provides immediate feedback on whether each answer is correct or incorrect.
 6. Performance Tracking: Tracks scores and provides a final report of correct and incorrect answers.
-7. Multi-Language Support: Developed in Python, JavaScript, and C# to support multiple platforms.
+7. Multi-Language Support: Developed in Python, and C# to support multiple platforms.
 8. Progress Saving: Allows users to save their quiz progress and resume later.
 
 ## Technologies Used
 
 - Python 3.x
-- JavaScript (Node.js)
 - .NET Core SDK (for C#)
 
 ## Project Structure
@@ -33,13 +32,10 @@ The Multi-Language Interactive Knowledge Quiz is a console-based application tha
 Multi-Language_Interactive_Knowledge_Quiz
 │
 ├── Python/
-│   ├── knowledge_quiz.py
-│
-├── JavaScript/
-│   ├── knowledgeQuiz.js
+│   ├── quiz_app.py
 │
 ├── C#/
-│   ├── KnowledgeQuiz.cs
+│   ├── QuizApp.cs
 │
 └── questions.json
 ```
@@ -59,7 +55,7 @@ Multi-Language_Interactive_Knowledge_Quiz
      ```
 
 3. Ensure You Have the Required Tools:
-   - Install Python 3.x, Node.js (for JavaScript), and .NET Core SDK on your machine if they aren’t already installed.
+   - Install Python 3.x, Node.js (for ), and .NET Core SDK on your machine if they aren’t already installed.
 
 ## How to Run
 
@@ -68,7 +64,7 @@ Multi-Language_Interactive_Knowledge_Quiz
      ```bash
      python knowledge_quiz.py
      ```
-   - JavaScript: Navigate to the JavaScript folder and execute:
+   - : Navigate to the  folder and execute:
      ```bash
      node knowledgeQuiz.js
 
