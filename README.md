@@ -50,7 +50,8 @@ Multi-Language_Interactive_Knowledge_Quiz
 
 2. **Navigate to the Project Folder**:
    - Move into the project directory:
-     ```Project
+     ```
+     Project
      ```
 
 3. **Ensure You Have the Required Tools**:
